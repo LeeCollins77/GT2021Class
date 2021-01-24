@@ -1,0 +1,54 @@
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+
+/* target the class of inline-block below */
+.inline-block {
+    display: inline-block;
+    padding: 15px;
+  /* per holly video another way of typing in
+  the padding space in the long version would
+  be the example of padding below. The above
+  version says ok you want to apply this padding
+  all the way around of this container. 
+  Padding is on the Inside
+  Margin is on the outside */
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+/* target the class of .left below */
+.left{
+  height: 500px;
+  float: left;
+  width: 30%;
+  background-color: lightblue;
+  text-align: center;
+}
+/* target the class of .right below */
+.right{
+  height: 500px;
+  float: left;
+  width: 70%;
+  background-color: lightgreen;
+  text-align: center;
+}
+
+/* styling for .card 
+You can also put code into the comments
+if you don't want to delete it and want
+to save it for later
+*/
+
+.card {
+    display: inline-block;
+    background-color: #C6C6C6;
+    border-radius: 5px;
+    height: 200px;
+    width: 150px;
+    margin: 50px 35px 35px 35px;
+}
