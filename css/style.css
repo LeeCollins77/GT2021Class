@@ -1,0 +1,105 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif, arial, sans-serif;
+   }
+
+   h2 {
+       font-family: montserrat, helvetica, sans-serif;
+       
+   }
+
+   
+   /* Write your selector for .left below */
+   .left {
+       float: left;
+       padding-right: 15px;
+   }
+   /* Write your selector for .right below */
+   .right {
+       float: right;
+       padding-left: 15px;
+   }
+   /* Write your selector for .separator below */
+   .seperator {
+       width: 750px;
+   }
+
+   /*below this is inserting a new css style guide*/
+
+   nav {
+    height: 50px;
+    background-color: rgb(238, 238, 241);
+  }
+  
+  /* target the class of inline-block below */
+  .inline-block {
+      display: inline-block;
+      font-family: montserrat, arial, sans-serif;
+      padding: 15px;
+    /* per holly video another way of typing in
+    the padding space in the long version would
+    be the example of padding below. The above
+    version says ok you want to apply this padding
+    all the way around of this container. 
+    Padding is on the Inside
+    Margin is on the outside */
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+  }
+
+    /* target the class of bottominfo below */
+    .bottominfo {
+        display: inline-block;
+        font-family: montserrat, arial, sans-serif;
+        font-size: 14;
+        color: #000;
+        text-decoration: none;
+        padding: 45px;
+      /* per holly video another way of typing in
+      the padding space in the long version would
+      be the example of padding below. The above
+      version says ok you want to apply this padding
+      all the way around of this container. 
+      Padding is on the Inside
+      Margin is on the outside */
+      padding-top: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      padding-left: 15px;
+      text-decoration: none;
+    }
+    
+  
+  /* target the class of .left below */
+  .left{
+    height: 500px;
+    float: left;
+    width: 30%;
+    background-color: lightblue;
+    text-align: center;
+  }
+  /* target the class of .right below */
+  .right{
+    height: 200px;
+    float: right;
+    width: 150px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  /* The card styling below is from another file. 
+  Do not use. Save it for later reference
+  */
+  
+  /*
+  .card {
+      display: inline-block;
+      background-color: #C6C6C6;
+      border-radius: 5px;
+      height: 200px;
+      width: 150px;
+      margin: 50px 35px 35px 35px;
+  }
+  */
